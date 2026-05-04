@@ -27,6 +27,9 @@ public class Biblioteca {
         return null;
     }
 
+   
+
+
     public List<ItemBiblioteca> gerarRelatorio() {
         return this.acervo;
     }

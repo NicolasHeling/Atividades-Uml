@@ -3,9 +3,6 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Collections;
 
-// ==========================================
-// CLASSES AUXILIARES (Devem ficar fora da classe Main ou ser static dentro dela)
-// ==========================================
 
 class Aluno {
     String nome;
@@ -67,9 +64,7 @@ class Pessoa {
     }
 }
 
-// ==========================================
-// CLASSE PRINCIPAL
-// ==========================================
+
 
 public class Main {
     public static void main(String[] args) {
@@ -108,9 +103,7 @@ public class Main {
         scanner.close();
     }
 
-    // ==========================================
-    // MÉTODOS DAS ATIVIDADES
-    // ==========================================
+   
 
     private static void executarAtividadeBasica(Scanner scanner) {
         System.out.println("\n--- 1. Leitura de 5 Números ---");
